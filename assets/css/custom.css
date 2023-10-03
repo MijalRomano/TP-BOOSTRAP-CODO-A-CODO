@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    background-color: #f0f0f0;
+}
+
+.horizontal-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50%; 
+    right: 20px; 
+    transform: translateY(-50%);
+    color: white; 
+    z-index: 1; 
+}

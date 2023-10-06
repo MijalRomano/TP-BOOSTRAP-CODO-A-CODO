@@ -218,7 +218,7 @@ img {
     }
 }
 
- /* Estilos para tamaños de pantalla pequeños (hasta 767px) */
+
 @media (max-width: 767px) {
     .container {
         width: 95%;

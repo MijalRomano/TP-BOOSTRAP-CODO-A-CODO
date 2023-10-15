@@ -1,10 +1,6 @@
-* {
-    margin: 0;
-}
-
 body {
-    margin: 0; 
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
@@ -18,8 +14,8 @@ body {
     text-align: center;
 }
 
-.custom-mt {
-    margin-top: 1rem;
+.custom-mt-3 {
+    margin-top: 0 rem;
     margin-left: 0;
     margin-right: 20px;
 }
@@ -96,8 +92,7 @@ img {
     background-color: #1a1a1a;
 }
 
-
-
+/* Estilos para tamaños de pantalla grandes (a partir de 992px) */
 @media (min-width: 992px) {
     .container {
         width: 100%;
@@ -144,23 +139,13 @@ img {
 
     .jumbotron {
         background-color: #f0f0f0;
-        padding: 30px;
+        padding: 20px;
     }
 
     .horizontal-card {
         display: flex;
         flex-direction: row;
         align-items: stretch;
-    }
-
-    .custom-buttons-container {
-        text-align: center;
-    }
-
-    .custom-buttons-container button {
-        width: 30%;
-        max-width: 200px;
-        margin-bottom: 10px;
     }
 
     footer {
@@ -168,23 +153,8 @@ img {
         text-align: center;
         padding: 20px 0;
     }
-
-    .horizontal-card {
-        display: flex;
-        flex-direction: row;
-        align-items: stretch;
-    }
-
-    .horizontal-card .card-img{
-        height: 100%; 
-        object-fit: cover; 
-    }
-
-    
-    .position-absolute p {
-        text-align: right;
-        font-size: 1rem; 
 }
+
 
 @media (min-width: 650px) and (max-width: 991px) {
     .container {
@@ -241,33 +211,13 @@ img {
         align-items: stretch;
     }
 
-    .btn-primary {
-        width: 30%;
-        max-width: 300px;
-    }
-
-    .btn-secondary {
-        width: 30%;
-        max-width: 300px;
-    }
-
-    .horizontal-card {
-        display: flex;
-        flex-direction: row;
-        align-items: stretch;
-    }
-
-    .horizontal-card .card-img {
-        height: 100%; 
-        object-fit: cover; 
-    }
-
-    .position-absolute p {
-        text-align: right;
-        font-size: 1rem; 
+    footer {
+        background-color: #18384b;
+        text-align: center;
+        padding: 20px 0;
     }
 }
-}
+
 
 @media (max-width: 767px) {
     .container {
@@ -303,6 +253,11 @@ img {
         padding: 10px;
     }
 
+    .horizontal-card {
+        display: block;
+        text-align: center;
+    }
+
     .card {
         margin-bottom: 20px;
     }
@@ -328,13 +283,8 @@ img {
         max-width: 300px;
     }
 
-    .btn-secondary {
-        width: 25%;
-        max-width: 300px;
-    }
-
     .btn-primary {
-        width: 25%;
+        width: 100%;
         max-width: 300px;
     }
 
@@ -342,34 +292,5 @@ img {
         background-color: #18384b;
         text-align: center;
         padding: 10px 0;
-        
-
-        .custom-buttons-container {
-            text-align: left;
-            margin-left: 10px;
-        }
-
-        .custom-buttons-container button {
-            width: 100%;
-            max-width: 200px;
-            margin-bottom: 10px;
-        }
     }
-
-    .horizontal-card {
-        display: flex;
-        flex-direction: row;
-        align-items: stretch;
-    }
-
-    .horizontal-card .card-img {
-        height: 100%; 
-        object-fit: cover; 
-    }
-
-    .position-absolute p {
-        text-align: right;
-        font-size: 0.7rem; 
-}
-
 }

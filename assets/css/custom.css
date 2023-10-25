@@ -92,8 +92,9 @@ img {
     background-color: #1a1a1a;
 }
 
-/* Estilos para tamaños de pantalla grandes (a partir de 992px) */
-@media (min-width: 992px) {
+
+
+@media (min-width: 500px) {
     .container {
         width: 100%;
         margin-top: 20px;
@@ -156,7 +157,7 @@ img {
 }
 
 
-@media (min-width: 650px) and (max-width: 991px) {
+@media (min-width: 650px) and (max-width: 600px) {
     .container {
         width: 100%;
         margin-top: 20px;
@@ -221,7 +222,7 @@ img {
 
 @media (max-width: 767px) {
     .container {
-        width: 95%;
+        width: 80%;
     }
 
     .custom-mt {
@@ -236,7 +237,7 @@ img {
 
     .navbar {
         max-height: 100px;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.5rem;
         height: 50px;
     }
 
@@ -256,6 +257,8 @@ img {
     .horizontal-card {
         display: block;
         text-align: center;
+        width: 100%;
+       height: auto;
     }
 
     .card {
